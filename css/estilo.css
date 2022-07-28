@@ -1,0 +1,168 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-titulo{
+    background-color:#13b138;
+    color: #fff;
+    width: 340px;
+    height: 510px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid #16161d;
+    padding: 25px;
+    z-index: 1;
+    position: relative;
+}
+
+.titulo{
+    bottom: 20px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #fff;
+    width: 330px;
+    height: 385px;
+    border: 1px solid #16161d;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 25px;
+    bottom: 400px;
+    position: relative;
+    z-index: 2;
+
+}
+
+h3{
+    position: relative;
+    bottom: 15px;
+}
+
+p{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 800;
+    margin: auto;
+}
+
+input {
+    width: 50px;
+    border:1px solid #16161d;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  margin: 15px 0 ;
+  left: 80px;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+.resultado{
+
+    width: 310px;
+    height: 93px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 30px;
+    right: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.result{
+    width: 100px;
+    height: 80px;
+    top: 5px;
+    position:absolute;
+    right: 5px;
+    border-radius: 15px;
+   
+}
+.numero{
+    color:#fff;
+    font-size: 23px;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    position: relative;
+    top: -12px;
+}
+.abaixo{
+    background-color: #87CEFA;
+}
+
+.ideal{
+    background-color: #00FA9A;
+}
+
+.sobrepeso{
+    background-color: #fee502;
+}
+
+.obesidade{
+    background-color: #feac00;
+}
+.grave-obesidade{
+    background-color: #fe2c23;
+
+}
+
+.imc{
+    width: 200px;
+    position:absolute;
+}

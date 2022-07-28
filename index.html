@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paulo Renan">
+    <title> Calculo do IMC</title>
+    <link type="text/css" href="css/estilo.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <header>
+        <div class="container-titulo">
+            <div class="titulo">
+                <h1> Calculadora de IMC</h1>
+                <h3> Índice de Massa Corporal</h3>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="container">
+            <p>Para calcular e avaliar o seu IMC (Índice de Massa Corporal) basta inserir a altura e o peso.</p> <br> <br>
+            <form onsubmit="return false;">
+                <label> Altura: </label>
+                <input type="text" placeholder="0,00" id="altura" onkeyup="verificarInput(event);"> <label>m</label> <br> <br>
+                <label> Peso:&nbsp &nbsp</label>     
+                <input type="text" placeholder="0,00" id="peso" onkeyup="verificarInput(event);"> <label> kg</label> <br> <br>
+                <button class="button" onclick="calcularImc();"> Calcular IMC</button>
+            </form> <br> <br>
+            <div class="resultado">
+                <div class="result">
+                    <div class="numero">
+                        <h2 id="result"></h2>
+                    </div>  
+                </div>
+                <div class="imc">
+                    <h2 id="imc"></h2>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
